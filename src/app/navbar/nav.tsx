@@ -47,7 +47,7 @@ const [navbg,setnavbg] = useState(false)
       </button>
       </Link>
       {/* burder */}
-      <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-white lg:hidden '/>
+      <HiBars3BottomRight onClick={openNav} className='w-8 h-8 cursor-pointer text-black lg:hidden '/>
      </div>
       </div>
       </div>
