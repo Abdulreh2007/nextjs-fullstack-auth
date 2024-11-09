@@ -17,9 +17,9 @@ export default function HeroSection() {
     <div className=" relative flex flex-col lg:flex-row  items-center justify-between min-h-screen px-6 lg:px-20 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white overflow-hidden">
 
     {/* Left Side: Text Content */}
-    <div className="lg:w-1/2 flex flex-col items-start space-y-6 lg:space-y-8 z-10 mt-6">
+    <div className="lg:w-1/2 flex flex-col items-start space-y-6 lg:space-y-8 z-10  ">
     
-      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-shadow-xl animate__animated animate__fadeIn animate__delay-1s">
+      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-shadow-xl animate__animated animate__fadeIn animate__delay-1s mt-12 ">
         Reliable Tow Truck Service <FlipWords words={words} />
       </h1>
 
