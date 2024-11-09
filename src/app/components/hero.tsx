@@ -11,10 +11,14 @@ export default function HeroSection() {
 
     const words = ["Anywere", "Anytime", "Anyplace", "Whenever"];
   return (
-    <div className=" relative flex flex-col lg:flex-row items-center justify-between min-h-screen px-6 lg:px-20 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white overflow-hidden">
+    <div className=''>
+
+    
+    <div className=" relative flex flex-col lg:flex-row  items-center justify-between min-h-screen px-6 lg:px-20 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-500 text-white overflow-hidden">
 
     {/* Left Side: Text Content */}
-    <div className="lg:w-1/2 flex flex-col items-start space-y-6 lg:space-y-8 z-10">
+    <div className="lg:w-1/2 flex flex-col items-start space-y-6 lg:space-y-8 z-10 mt-6">
+    
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-shadow-xl animate__animated animate__fadeIn animate__delay-1s">
         Reliable Tow Truck Service <FlipWords words={words} />
       </h1>
@@ -95,6 +99,7 @@ export default function HeroSection() {
 
       {/* Subtle Background Overlay */}
       <div className="absolute inset-0 bg-black opacity-30 z-0"></div>
+    </div>
     </div>
   );
 }
